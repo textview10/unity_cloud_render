@@ -1,0 +1,1010 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2068630246050356214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6330849030184310861}
+  m_Layer: 0
+  m_Name: npc_pos_start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6330849030184310861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068630246050356214}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -6.69}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3882874959445426432}
+  - {fileID: 3227678878978828885}
+  - {fileID: 4333171504492897042}
+  - {fileID: 8807998395979742238}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2846508587031736559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3227678878978828885}
+  - component: {fileID: 8803173887357333551}
+  - component: {fileID: 3405456175575230797}
+  - component: {fileID: 6375829709911132726}
+  m_Layer: 0
+  m_Name: SB1_Pos_start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3227678878978828885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846508587031736559}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.67, y: 0.32313538, z: -5.6799994}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6330849030184310861}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &8803173887357333551
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846508587031736559}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: cfc67a92b17bb994a87aed71cbe35cf4, type: 3}
+  m_Controller: {fileID: 9100000, guid: 25ffd5b7626dc407780ecf4100a79269, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: '
+
+    Transform ''Character_LeftToeBase'' has been deleted
+
+    Transform
+    ''Character_LeftFoot'' has been deleted
+
+    Transform ''Character_LeftLeg''
+    has been deleted
+
+    Transform ''Character_LeftUpLeg'' has been deleted
+
+    Transform
+    ''Character_RightToeBase'' has been deleted
+
+    Transform ''Character_RightFoot''
+    has been deleted
+
+    Transform ''Character_RightLeg'' has been deleted
+
+    Transform
+    ''Character_RightUpLeg'' has been deleted
+
+    Transform ''Character_LeftHandIndex3''
+    has been deleted
+
+    Transform ''Character_LeftHandIndex2'' has been deleted
+
+    Transform
+    ''Character_LeftHandIndex1'' has been deleted
+
+    Transform ''Character_LeftHandMiddle3''
+    has been deleted
+
+    Transform ''Character_LeftHandMiddle2'' has been deleted
+
+    Transform
+    ''Character_LeftHandMiddle1'' has been deleted
+
+    Transform ''Character_LeftHandPinky3''
+    has been deleted
+
+    Transform ''Character_LeftHandPinky2'' has been deleted
+
+    Transform
+    ''Character_LeftHandPinky1'' has been deleted
+
+    Transform ''Character_LeftHandRing3''
+    has been deleted
+
+    Transform ''Character_LeftHandRing2'' has been deleted
+
+    Transform
+    ''Character_LeftHandRing1'' has been deleted
+
+    Transform ''Character_LeftHandThumb3''
+    has been deleted
+
+    Transform ''Character_LeftHandThumb2'' has been deleted
+
+    Transform
+    ''Character_LeftHandThumb1'' has been deleted
+
+    Transform ''Character_LeftHand''
+    has been deleted
+
+    Transform ''Character_LeftForeArm'' has been deleted
+
+    Transform
+    ''Character_LeftArm'' has been deleted
+
+    Transform ''Character_LeftShoulder''
+    has been deleted
+
+    Transform ''Character_Head'' has been deleted
+
+    Transform
+    ''Character_Neck'' has been deleted
+
+    Transform ''Character_RightHandIndex3''
+    has been deleted
+
+    Transform ''Character_RightHandIndex2'' has been deleted
+
+    Transform
+    ''Character_RightHandIndex1'' has been deleted
+
+    Transform ''Character_RightHandMiddle3''
+    has been deleted
+
+    Transform ''Character_RightHandMiddle2'' has been deleted
+
+    Transform
+    ''Character_RightHandMiddle1'' has been deleted
+
+    Transform ''Character_RightHandPinky3''
+    has been deleted
+
+    Transform ''Character_RightHandPinky2'' has been deleted
+
+    Transform
+    ''Character_RightHandPinky1'' has been deleted
+
+    Transform ''Character_RightHandRing3''
+    has been deleted
+
+    Transform ''Character_RightHandRing2'' has been deleted
+
+    Transform
+    ''Character_RightHandRing1'' has been deleted
+
+    Transform ''Character_RightHandThumb3''
+    has been deleted
+
+    Transform ''Character_RightHandThumb2'' has been deleted
+
+    Transform
+    ''Character_RightHandThumb1'' has been deleted
+
+    Transform ''Character_RightHand''
+    has been deleted
+
+    Transform ''Character_RightForeArm'' has been deleted
+
+    Transform
+    ''Character_RightArm'' has been deleted
+
+    Transform ''Character_RightShoulder''
+    has been deleted
+
+    Transform ''Character_Spine2'' has been deleted
+
+    Transform
+    ''Character_Spine1'' has been deleted
+
+    Transform ''Character_Spine'' has
+    been deleted
+
+    Transform ''Character_Hips'' has been deleted
+
+    Transform
+    ''Character_Reference'' has been deleted
+
+    Transform ''Main'' has been deleted'
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!208 &3405456175575230797
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846508587031736559}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.25, y: 0.5, z: 0.25}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!195 &6375829709911132726
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846508587031736559}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 1
+  m_Acceleration: 2
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!1 &3992815088008739240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4333171504492897042}
+  - component: {fileID: 7692896187692169576}
+  - component: {fileID: 7902977081053744275}
+  - component: {fileID: 1834399846716655985}
+  m_Layer: 0
+  m_Name: SB2_Pos_start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4333171504492897042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3992815088008739240}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.21, y: 0.32313538, z: -5.68}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6330849030184310861}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &7692896187692169576
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3992815088008739240}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: b95da8315dcc27e4a8c2e20ce7e21951, type: 3}
+  m_Controller: {fileID: 9100000, guid: 25ffd5b7626dc407780ecf4100a79269, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: '
+
+    Transform ''Character_LeftToeBase'' has been deleted
+
+    Transform
+    ''Character_LeftFoot'' has been deleted
+
+    Transform ''Character_LeftLeg''
+    has been deleted
+
+    Transform ''Character_LeftUpLeg'' has been deleted
+
+    Transform
+    ''Character_RightToeBase'' has been deleted
+
+    Transform ''Character_RightFoot''
+    has been deleted
+
+    Transform ''Character_RightLeg'' has been deleted
+
+    Transform
+    ''Character_RightUpLeg'' has been deleted
+
+    Transform ''Character_LeftHandIndex3''
+    has been deleted
+
+    Transform ''Character_LeftHandIndex2'' has been deleted
+
+    Transform
+    ''Character_LeftHandIndex1'' has been deleted
+
+    Transform ''Character_LeftHandMiddle3''
+    has been deleted
+
+    Transform ''Character_LeftHandMiddle2'' has been deleted
+
+    Transform
+    ''Character_LeftHandMiddle1'' has been deleted
+
+    Transform ''Character_LeftHandPinky3''
+    has been deleted
+
+    Transform ''Character_LeftHandPinky2'' has been deleted
+
+    Transform
+    ''Character_LeftHandPinky1'' has been deleted
+
+    Transform ''Character_LeftHandRing3''
+    has been deleted
+
+    Transform ''Character_LeftHandRing2'' has been deleted
+
+    Transform
+    ''Character_LeftHandRing1'' has been deleted
+
+    Transform ''Character_LeftHandThumb3''
+    has been deleted
+
+    Transform ''Character_LeftHandThumb2'' has been deleted
+
+    Transform
+    ''Character_LeftHandThumb1'' has been deleted
+
+    Transform ''Character_LeftHand''
+    has been deleted
+
+    Transform ''Character_LeftForeArm'' has been deleted
+
+    Transform
+    ''Character_LeftArm'' has been deleted
+
+    Transform ''Character_LeftShoulder''
+    has been deleted
+
+    Transform ''Character_Head'' has been deleted
+
+    Transform
+    ''Character_Neck'' has been deleted
+
+    Transform ''Character_RightHandIndex3''
+    has been deleted
+
+    Transform ''Character_RightHandIndex2'' has been deleted
+
+    Transform
+    ''Character_RightHandIndex1'' has been deleted
+
+    Transform ''Character_RightHandMiddle3''
+    has been deleted
+
+    Transform ''Character_RightHandMiddle2'' has been deleted
+
+    Transform
+    ''Character_RightHandMiddle1'' has been deleted
+
+    Transform ''Character_RightHandPinky3''
+    has been deleted
+
+    Transform ''Character_RightHandPinky2'' has been deleted
+
+    Transform
+    ''Character_RightHandPinky1'' has been deleted
+
+    Transform ''Character_RightHandRing3''
+    has been deleted
+
+    Transform ''Character_RightHandRing2'' has been deleted
+
+    Transform
+    ''Character_RightHandRing1'' has been deleted
+
+    Transform ''Character_RightHandThumb3''
+    has been deleted
+
+    Transform ''Character_RightHandThumb2'' has been deleted
+
+    Transform
+    ''Character_RightHandThumb1'' has been deleted
+
+    Transform ''Character_RightHand''
+    has been deleted
+
+    Transform ''Character_RightForeArm'' has been deleted
+
+    Transform
+    ''Character_RightArm'' has been deleted
+
+    Transform ''Character_RightShoulder''
+    has been deleted
+
+    Transform ''Character_Spine2'' has been deleted
+
+    Transform
+    ''Character_Spine1'' has been deleted
+
+    Transform ''Character_Spine'' has
+    been deleted
+
+    Transform ''Character_Hips'' has been deleted
+
+    Transform
+    ''Character_Reference'' has been deleted
+
+    Transform ''Main'' has been deleted'
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!208 &7902977081053744275
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3992815088008739240}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.25, y: 0.5, z: 0.25}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!195 &1834399846716655985
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3992815088008739240}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 1
+  m_Acceleration: 2
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0.2
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!1 &4515261703007591354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3882874959445426432}
+  - component: {fileID: 7134426252835609466}
+  - component: {fileID: 8875144419458271250}
+  - component: {fileID: 229915203757030361}
+  - component: {fileID: 6961676539412581238}
+  m_Layer: 0
+  m_Name: GSJ_Pos_start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3882874959445426432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4515261703007591354}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.54, y: 0.32313538, z: -5.6799994}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6330849030184310861}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &7134426252835609466
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4515261703007591354}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: a2fa610166921b44081ba14f79aed24e, type: 3}
+  m_Controller: {fileID: 9100000, guid: 25ffd5b7626dc407780ecf4100a79269, type: 2}
+  m_CullingMode: 2
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: '
+
+    Transform ''Character_LeftToeBase'' has been deleted
+
+    Transform
+    ''Character_LeftFoot'' has been deleted
+
+    Transform ''Character_LeftLeg''
+    has been deleted
+
+    Transform ''Character_LeftUpLeg'' has been deleted
+
+    Transform
+    ''Character_RightToeBase'' has been deleted
+
+    Transform ''Character_RightFoot''
+    has been deleted
+
+    Transform ''Character_RightLeg'' has been deleted
+
+    Transform
+    ''Character_RightUpLeg'' has been deleted
+
+    Transform ''Character_LeftHandIndex3''
+    has been deleted
+
+    Transform ''Character_LeftHandIndex2'' has been deleted
+
+    Transform
+    ''Character_LeftHandIndex1'' has been deleted
+
+    Transform ''Character_LeftHandMiddle3''
+    has been deleted
+
+    Transform ''Character_LeftHandMiddle2'' has been deleted
+
+    Transform
+    ''Character_LeftHandMiddle1'' has been deleted
+
+    Transform ''Character_LeftHandPinky3''
+    has been deleted
+
+    Transform ''Character_LeftHandPinky2'' has been deleted
+
+    Transform
+    ''Character_LeftHandPinky1'' has been deleted
+
+    Transform ''Character_LeftHandRing3''
+    has been deleted
+
+    Transform ''Character_LeftHandRing2'' has been deleted
+
+    Transform
+    ''Character_LeftHandRing1'' has been deleted
+
+    Transform ''Character_LeftHandThumb3''
+    has been deleted
+
+    Transform ''Character_LeftHandThumb2'' has been deleted
+
+    Transform
+    ''Character_LeftHandThumb1'' has been deleted
+
+    Transform ''Character_LeftHand''
+    has been deleted
+
+    Transform ''Character_LeftForeArm'' has been deleted
+
+    Transform
+    ''Character_LeftArm'' has been deleted
+
+    Transform ''Character_LeftShoulder''
+    has been deleted
+
+    Transform ''Character_Head'' has been deleted
+
+    Transform
+    ''Character_Neck'' has been deleted
+
+    Transform ''Character_RightHandIndex3''
+    has been deleted
+
+    Transform ''Character_RightHandIndex2'' has been deleted
+
+    Transform
+    ''Character_RightHandIndex1'' has been deleted
+
+    Transform ''Character_RightHandMiddle3''
+    has been deleted
+
+    Transform ''Character_RightHandMiddle2'' has been deleted
+
+    Transform
+    ''Character_RightHandMiddle1'' has been deleted
+
+    Transform ''Character_RightHandPinky3''
+    has been deleted
+
+    Transform ''Character_RightHandPinky2'' has been deleted
+
+    Transform
+    ''Character_RightHandPinky1'' has been deleted
+
+    Transform ''Character_RightHandRing3''
+    has been deleted
+
+    Transform ''Character_RightHandRing2'' has been deleted
+
+    Transform
+    ''Character_RightHandRing1'' has been deleted
+
+    Transform ''Character_RightHandThumb3''
+    has been deleted
+
+    Transform ''Character_RightHandThumb2'' has been deleted
+
+    Transform
+    ''Character_RightHandThumb1'' has been deleted
+
+    Transform ''Character_RightHand''
+    has been deleted
+
+    Transform ''Character_RightForeArm'' has been deleted
+
+    Transform
+    ''Character_RightArm'' has been deleted
+
+    Transform ''Character_RightShoulder''
+    has been deleted
+
+    Transform ''Character_Spine2'' has been deleted
+
+    Transform
+    ''Character_Spine1'' has been deleted
+
+    Transform ''Character_Spine'' has
+    been deleted
+
+    Transform ''Character_Hips'' has been deleted
+
+    Transform
+    ''Character_Reference'' has been deleted
+
+    Transform ''Main'' has been deleted'
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!208 &8875144419458271250
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4515261703007591354}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!195 &229915203757030361
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4515261703007591354}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 1
+  m_Acceleration: 2
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &6961676539412581238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4515261703007591354}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe91dc294731a9428c0941ea7579110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  complexMaskingMode: 0
+  drawingMode: 1
+  outlineLayer: 0
+  outlineTargets: []
+  renderStyle: 1
+  outlineParameters:
+    enabled: 1
+    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    dilateShift: 1
+    blurShift: 1
+    fillPass:
+      shader: {fileID: 0}
+      serializedProperties: []
+  backParameters:
+    enabled: 1
+    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    dilateShift: 1
+    blurShift: 1
+    fillPass:
+      shader: {fileID: 0}
+      serializedProperties: []
+  frontParameters:
+    enabled: 1
+    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    dilateShift: 1
+    blurShift: 1
+    fillPass:
+      shader: {fileID: 0}
+      serializedProperties: []
+--- !u!1 &8176174568015488676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8807998395979742238}
+  - component: {fileID: 3232571930895246948}
+  - component: {fileID: 1772546258219098840}
+  - component: {fileID: 8134911311823408690}
+  m_Layer: 0
+  m_Name: HBL_Pos_start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8807998395979742238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8176174568015488676}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.54, y: 0.32313538, z: -4.6199994}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6330849030184310861}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &3232571930895246948
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8176174568015488676}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 635276126eae7c343bd374478ced37d0, type: 3}
+  m_Controller: {fileID: 9100000, guid: 25ffd5b7626dc407780ecf4100a79269, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: '
+
+    Transform ''Character_LeftToeBase'' has been deleted
+
+    Transform
+    ''Character_LeftFoot'' has been deleted
+
+    Transform ''Character_LeftLeg''
+    has been deleted
+
+    Transform ''Character_LeftUpLeg'' has been deleted
+
+    Transform
+    ''Character_RightToeBase'' has been deleted
+
+    Transform ''Character_RightFoot''
+    has been deleted
+
+    Transform ''Character_RightLeg'' has been deleted
+
+    Transform
+    ''Character_RightUpLeg'' has been deleted
+
+    Transform ''Character_LeftHandIndex3''
+    has been deleted
+
+    Transform ''Character_LeftHandIndex2'' has been deleted
+
+    Transform
+    ''Character_LeftHandIndex1'' has been deleted
+
+    Transform ''Character_LeftHandMiddle3''
+    has been deleted
+
+    Transform ''Character_LeftHandMiddle2'' has been deleted
+
+    Transform
+    ''Character_LeftHandMiddle1'' has been deleted
+
+    Transform ''Character_LeftHandPinky3''
+    has been deleted
+
+    Transform ''Character_LeftHandPinky2'' has been deleted
+
+    Transform
+    ''Character_LeftHandPinky1'' has been deleted
+
+    Transform ''Character_LeftHandRing3''
+    has been deleted
+
+    Transform ''Character_LeftHandRing2'' has been deleted
+
+    Transform
+    ''Character_LeftHandRing1'' has been deleted
+
+    Transform ''Character_LeftHandThumb3''
+    has been deleted
+
+    Transform ''Character_LeftHandThumb2'' has been deleted
+
+    Transform
+    ''Character_LeftHandThumb1'' has been deleted
+
+    Transform ''Character_LeftHand''
+    has been deleted
+
+    Transform ''Character_LeftForeArm'' has been deleted
+
+    Transform
+    ''Character_LeftArm'' has been deleted
+
+    Transform ''Character_LeftShoulder''
+    has been deleted
+
+    Transform ''Character_Head'' has been deleted
+
+    Transform
+    ''Character_Neck'' has been deleted
+
+    Transform ''Character_RightHandIndex3''
+    has been deleted
+
+    Transform ''Character_RightHandIndex2'' has been deleted
+
+    Transform
+    ''Character_RightHandIndex1'' has been deleted
+
+    Transform ''Character_RightHandMiddle3''
+    has been deleted
+
+    Transform ''Character_RightHandMiddle2'' has been deleted
+
+    Transform
+    ''Character_RightHandMiddle1'' has been deleted
+
+    Transform ''Character_RightHandPinky3''
+    has been deleted
+
+    Transform ''Character_RightHandPinky2'' has been deleted
+
+    Transform
+    ''Character_RightHandPinky1'' has been deleted
+
+    Transform ''Character_RightHandRing3''
+    has been deleted
+
+    Transform ''Character_RightHandRing2'' has been deleted
+
+    Transform
+    ''Character_RightHandRing1'' has been deleted
+
+    Transform ''Character_RightHandThumb3''
+    has been deleted
+
+    Transform ''Character_RightHandThumb2'' has been deleted
+
+    Transform
+    ''Character_RightHandThumb1'' has been deleted
+
+    Transform ''Character_RightHand''
+    has been deleted
+
+    Transform ''Character_RightForeArm'' has been deleted
+
+    Transform
+    ''Character_RightArm'' has been deleted
+
+    Transform ''Character_RightShoulder''
+    has been deleted
+
+    Transform ''Character_Spine2'' has been deleted
+
+    Transform
+    ''Character_Spine1'' has been deleted
+
+    Transform ''Character_Spine'' has
+    been deleted
+
+    Transform ''Character_Hips'' has been deleted
+
+    Transform
+    ''Character_Reference'' has been deleted
+
+    Transform ''Main'' has been deleted'
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!208 &1772546258219098840
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8176174568015488676}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.25, y: 0.5, z: 0.25}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!195 &8134911311823408690
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8176174568015488676}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 1
+  m_Acceleration: 2
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4

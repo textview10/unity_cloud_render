@@ -1,0 +1,17 @@
+{
+  "name": "com.tal.plugins",
+  "displayName": "Tal.Engine.ThirdPlugins",
+  "description": "This plugin provides the thirdPlugins",
+  "version": "1.0.0",
+  "unity": "2020.2",
+  "author": {
+    "name": "Esoteric Software",
+    "email": "mawenze@tal.com",
+    "url": "http:local"
+  },
+  "keywords": [
+    "thirdplugin"
+  ],
+  "type": "library"
+}
+

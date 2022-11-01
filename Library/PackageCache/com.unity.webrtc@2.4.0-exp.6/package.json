@@ -1,0 +1,33 @@
+{
+  "name": "com.unity.webrtc",
+  "displayName": "WebRTC",
+  "version": "2.4.0-exp.6",
+  "unity": "2019.4",
+  "description": "The WebRTC package provides browsers and mobile applications with Real-Time Communications (RTC) capabilities.",
+  "keywords": [
+    "webrtc",
+    "web"
+  ],
+  "dependencies": {
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.editorcoroutines": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Example",
+      "description": "WebRTC sample",
+      "path": "Samples~"
+    }
+  ],
+  "upm": {
+    "changelog": "### Fixed,- Fixed a crash bug where disposing `AudioStreamTrack` on a receiver side."
+  },
+  "upmCi": {
+    "footprint": "e80330d30a92823ec4afd4df8877a95b62235e29"
+  },
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/com.unity.webrtc.git",
+    "type": "git",
+    "revision": "cee9dae8950703925a69cdffc983fe94c68d9c0a"
+  }
+}

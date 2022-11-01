@@ -1,0 +1,20 @@
+{
+    "name": "Tal.ThirdPlugins.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:aa060d2889ddd48a1946b09eccd23c99",
+        "GUID:65c5dc14507014a98b89329f4aafaafb",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
